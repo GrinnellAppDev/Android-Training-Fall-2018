@@ -10,5 +10,6 @@ This course introduces the aspiring Android developer to the fundamental concept
 ## Useful websites
 - [Android fundamentals by Google](https://developer.android.com/courses/fundamentals-training/toc-v2)
 - [Vogella tutorials](http://www.vogella.com/tutorials/android.html)
+- [Java Tutorials point: For quick reference to Java](https://www.tutorialspoint.com/java/)
 
 
