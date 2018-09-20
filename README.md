@@ -15,20 +15,7 @@ This course introduces the aspiring Android developer to the fundamental concept
 - [Java Tutorials point: For quick reference to Java](https://www.tutorialspoint.com/java/)
 - [Stackoverflow](https://stackoverflow.com/)
 
-Syllabus
-
-
 ## Schedule
-Week 1
-     - Introductions
-     - Why Android?
-          - [Reasons to become an Android Developer](https://www.androidauthority.com/top-perks-android-app-developer-692001/)
-          - [Mobile OS markets](https://www.statista.com/statistics/266136/global-market-share-held-by-smartphone-operating-systems/)
-
-   Software setup
-      - [Setup Github account](https://github.com/join)
-      - [Install Android Studio](https://developer.android.com/studio/)
-
-   Readings (Due next class)
+[Week 1](https://github.com/GrinnellAppDev/Android-Training-Fall-2018/blob/master/week1.md)
 
 
