@@ -19,14 +19,15 @@ Syllabus
 
 
 ## Schedule
-Week 1
-	- Introductions
-	- Why Android?
-		- [Reasons to become an Android Developer](https://www.androidauthority.com/top-perks-android-app-developer-692001/)
-		- [Mobile OS markets](https://www.statista.com/statistics/266136/global-market-share-held-by-smartphone-operating-systems/)
 
- Software setup
-		- [Setup Github account](https://github.com/join)
-		- [Install Android Studio](https://developer.android.com/studio/)
+Week 1
+- Introductions
+- Why Android?
+	- [Reasons to become an Android Developer](https://www.androidauthority.com/top-perks-android-app-developer-692001/)
+	- [Mobile OS markets](https://www.statista.com/statistics/266136/global-market-share-held-by-smartphone-operating-systems/)
+
+Software setup
+- [Setup Github account](https://github.com/join)
+- [Install Android Studio](https://developer.android.com/studio/)
 
  Readings (Due next class)
