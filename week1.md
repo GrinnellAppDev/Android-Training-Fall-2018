@@ -15,11 +15,7 @@ This course introduces the aspiring Android developer to the fundamental concept
 - [Java Tutorials point: For quick reference to Java](https://www.tutorialspoint.com/java/)
 - [Stackoverflow](https://stackoverflow.com/)
 
-# Syllabus
-
-## Schedule
-
-Week 1
+# Week 1
 - Introductions
 - Why Android?
 	- [Reasons to become an Android Developer](https://www.androidauthority.com/top-perks-android-app-developer-692001/)
