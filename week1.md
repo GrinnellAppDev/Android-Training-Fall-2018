@@ -30,4 +30,16 @@ Software setup
 - [Setup Github account](https://github.com/join)
 - [Install Android Studio](https://developer.android.com/studio/)
 
+Instructions for installing Java
+
+Windows Users
+- Search for "Command Prompt" inside your search field from your task bar, this opens a new terminal
+- Type "java -version" and click enter
+- If you find some version of java, then you are good, otherwise download and install java from [here](http://www.oracle.com/technetwork/java/javase/downloads/jdk10-downloads-4416644.html)
+
+Mac Users
+- Open the Terminal
+- Type "java -version" and click enter
+- If you find some version of java, then you are good, otherwise download and install java from [here](http://www.oracle.com/technetwork/java/javase/downloads/jdk10-downloads-4416644.html)
+
  Readings (Due next class)
