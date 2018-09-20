@@ -15,8 +15,7 @@ This course introduces the aspiring Android developer to the fundamental concept
 - [Java Tutorials point: For quick reference to Java](https://www.tutorialspoint.com/java/)
 - [Stackoverflow](https://stackoverflow.com/)
 
-Syllabus
-
+# Syllabus
 
 ## Schedule
 
@@ -26,20 +25,20 @@ Week 1
 	- [Reasons to become an Android Developer](https://www.androidauthority.com/top-perks-android-app-developer-692001/)
 	- [Mobile OS markets](https://www.statista.com/statistics/266136/global-market-share-held-by-smartphone-operating-systems/)
 
-# Software setup
+#### Software setup
 - [Setup Github account](https://github.com/join)
 - [Install Android Studio](https://developer.android.com/studio/)
 
 Instructions for installing Java
 
-# Windows Users
+#### Windows Users
 - Search for "Command Prompt" inside your search field from your task bar, this opens a new terminal
 - Type "java -version" and click enter
 - If you find some version of java, then you are good, otherwise download and install java from [here](http://www.oracle.com/technetwork/java/javase/downloads/jdk10-downloads-4416644.html)
 
-# Mac Users
+#### Mac Users
 - Open the Terminal
 - Type "java -version" and click enter
 - If you find some version of java, then you are good, otherwise download and install java from [here](http://www.oracle.com/technetwork/java/javase/downloads/jdk10-downloads-4416644.html)
 
-# Readings (Due next class)
+#### Readings (Due next class)
