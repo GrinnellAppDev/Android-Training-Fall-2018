@@ -22,6 +22,7 @@ Syllabus
 Week 1
 - Introductions
 - [Why Android?](https://www.androidauthority.com/top-perks-android-app-developer-692001/)
+     - [Mobile OS markets](https://www.statista.com/statistics/266136/global-market-share-held-by-smartphone-operating-systems/)
 
 Software setup
 - [Setup Github account](https://github.com/join)
