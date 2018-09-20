@@ -15,7 +15,7 @@ This course introduces the aspiring Android developer to the fundamental concept
 - [Java Tutorials point: For quick reference to Java](https://www.tutorialspoint.com/java/)
 - [Stackoverflow](https://stackoverflow.com/)
 
-# Week 1
+## Week 1
 - Introductions
 - Why Android?
 	- [Reasons to become an Android Developer](https://www.androidauthority.com/top-perks-android-app-developer-692001/)
@@ -25,7 +25,7 @@ This course introduces the aspiring Android developer to the fundamental concept
 - [Setup Github account](https://github.com/join)
 - [Install Android Studio](https://developer.android.com/studio/)
 
-Instructions for installing Java
+## Instructions for installing Java
 
 #### Windows Users
 - Search for "Command Prompt" inside your search field from your task bar, this opens a new terminal
