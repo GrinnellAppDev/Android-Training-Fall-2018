@@ -43,7 +43,8 @@ Go to this [site](https://developer.android.com/training/basics/firstapp/) and w
 under Build your first app. Your last exercise should be the -> Start another activity
 
 #### Reading (Due next class)
-[Introduction to activities](https://developer.android.com/guide/components/activities/intro-activities)
-[Activities lifecycle](https://developer.android.com/guide/components/activities/intro-activities)
+- [Introduction to activities](https://developer.android.com/guide/components/activities/intro-activities)
+
+- [Activities lifecycle](https://developer.android.com/guide/components/activities/intro-activities)
 
 
