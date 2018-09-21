@@ -42,4 +42,10 @@ Mac Users
 - Type "java -version" and click enter
 - If you find some version of java, then you are good, otherwise download and install java from [here](http://www.oracle.com/technetwork/java/javase/downloads/jdk10-downloads-4416644.html)
 
- Readings (Due next class)
+Exercise (Due next class)
+Go to this [site](https://developer.android.com/training/basics/firstapp/) and work through the exercise
+under Build your first app. Your last exercise should be the -> Start another activity
+
+Reading (Due next class)
+[Introduction to activities](https://developer.android.com/guide/components/activities/intro-activities)
+[Activities lifecycle](https://developer.android.com/guide/components/activities/intro-activities)
