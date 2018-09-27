@@ -29,10 +29,10 @@ This course introduces the aspiring Android developer to the fundamental concept
 	- Manifest file
 	- Build.gradle
 - User Interface
-	- Design and Text tab
+	- Design and Text tabs
 	- Concept of hierachy of layouts
 	- OnClickListeners (Programmatic callbacks)
-	- Intents in Android. There are more intents in android, see [here](https://developer.android.com/guide/components/intents-common)
+	- Intents in Android. There are more intents in Android, see [here](https://developer.android.com/guide/components/intents-common)
 	- The concept of up navigation in Android. [Learn more](https://developer.android.com/topic/libraries/architecture/navigation/navigation-principles)
 
 #### Push your very first Android app to github (You will remember this 5 years from now)
@@ -41,7 +41,7 @@ This course introduces the aspiring Android developer to the fundamental concept
 - Give it the name: Android-hello-world-app
 - Do not edit the README.md file for now
 - Finish creating the repo
-- Copy the link to the repo, it should looks something like this: https://github.com/Tapszvidzwa/Android-hello-world-app.git
+- Copy the link to the repo, mine looks like this: https://github.com/Tapszvidzwa/Android-hello-world-app.git
 - In Android Studio, open your terminal and follow the commands below
 
 #### For the next steps, if you have forgotten the git commands, first trying using [this](https://www.learnenough.com/git-tutorial) as a cheat sheet, otherwise call Tapiwa :)
