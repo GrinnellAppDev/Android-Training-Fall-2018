@@ -25,7 +25,10 @@ This course introduces the aspiring Android developer to the fundamental concept
 ## Lesson
 - Introduction to Android studio. [Learn more](https://developer.android.com/studio/intro/)
 - Introduction to the important Android files
+	- How android apps are organized as Linux system
+	- Android app components - Activities, Services, Broadcast Receivers, Content Providers
 	- Activities
+	- Activities Lifecycle
 	- Manifest file
 	- Build.gradle
 - User Interface
