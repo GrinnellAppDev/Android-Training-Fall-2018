@@ -17,5 +17,11 @@ This course introduces the aspiring Android developer to the fundamental concept
 
 ## Schedule
 [Week 1](https://github.com/GrinnellAppDev/Android-Training-Fall-2018/blob/master/week1.md)
+[Week 2](https://github.com/GrinnellAppDev/Android-Training-Fall-2018/blob/master/week2.md)
+[Week 3](https://github.com/GrinnellAppDev/Android-Training-Fall-2018/blob/master/week3.md)
+[Week 4](https://github.com/GrinnellAppDev/Android-Training-Fall-2018/blob/master/week4.md)
+[Week 5](https://github.com/GrinnellAppDev/Android-Training-Fall-2018/blob/master/week5.md)
+[Week 6](https://github.com/GrinnellAppDev/Android-Training-Fall-2018/blob/master/week6.md)
+[Week 7](https://github.com/GrinnellAppDev/Android-Training-Fall-2018/blob/master/week7.md)
 
 
