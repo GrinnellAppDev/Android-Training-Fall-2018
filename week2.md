@@ -30,6 +30,7 @@ This course introduces the aspiring Android developer to the fundamental concept
 	- Android app components - Activities, Services, Broadcast Receivers, Content Providers
 	- Activities
 	- Activities Lifecycle
+	- R auto generated file
 	- Build.gradle
 	- Layout files
 - User Interface
