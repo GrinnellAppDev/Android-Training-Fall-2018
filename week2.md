@@ -18,9 +18,9 @@ This course introduces the aspiring Android developer to the fundamental concept
 ## Week 2
 
 ## More setup
-- [Everyone enter your credentials here](https://docs.google.com/document/d/1nhjxLylpK2cHi-zd7M70F1CG92ALBiFP1rq_0adZLi4/edit?usp=sharing)
-- [Follow the steps for setting up email address for every git repository on your computer](https://help.github.com/articles/setting-your-commit-email-address-in-git/)
-- [Follow the steps for setting your git username for every git repository on your computer](https://help.github.com/articles/setting-your-username-in-git/)
+- Everyone enter your credentials [here](https://docs.google.com/document/d/1nhjxLylpK2cHi-zd7M70F1CG92ALBiFP1rq_0adZLi4/edit?usp=sharing)
+- Follow the steps for setting up email address for every git repository on your computer [here](https://help.github.com/articles/setting-your-commit-email-address-in-git/)
+- [Follow the steps for setting your git username for every git repository on your computer[here](https://help.github.com/articles/setting-your-username-in-git/)
 
 ## Lesson
 - Introduction to Android studio. [Learn more](https://developer.android.com/studio/intro/)
