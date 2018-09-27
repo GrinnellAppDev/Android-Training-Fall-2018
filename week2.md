@@ -53,7 +53,7 @@ This course introduces the aspiring Android developer to the fundamental concept
 
 ## Exercise (Due next week: Start early)
 - Build a story app - (To be discussed in class). Make sure to create a github repo for your app (I check these)
-- Practise using Android debugger. Do task 1 - 3 (task 3 is on step 5). Everything after task 3 is optional. [Debugger practise](https://codelabs.developers.google.com/codelabs/android-training-using-debugger/#4)
+- Practise using Android debugger. Do task 1 - 3 (task 3 is on step 5). Everything after task 3 is optional. [Debugger practise here](https://codelabs.developers.google.com/codelabs/android-training-using-debugger/#4)
 
 ## Readings (Due next week)
 - [Intents](https://developer.android.com/guide/components/intents-filters)
