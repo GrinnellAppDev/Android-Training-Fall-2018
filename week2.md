@@ -10,41 +10,57 @@
 This course introduces the aspiring Android developer to the fundamental concepts needed to make their own full fledged Android apps. We will explore most of these concepts through several projects (apps) that students can add to their personal projects portfolio. Students will become well versed with Version Control Systems (VCS) like [git](https://www.learnenough.com/git-tutorial) as well as using the [commandLine](https://www.learnenough.com/command-line-tutorial) like a pro. Furthermore, although not required, students are expected to invest their personal time in learning Java since all the projects will be coded in Java. All the material and links required for this course will be posted on this site under the schedule.
 
 ## Useful websites
-- [Android fundamentals by Google](https://developer.android.com/courses/fundamentals-training/toc-v2)
-- [Vogella tutorials](http://www.vogella.com/tutorials/android.html)
+- [Android fundamentals by Google: Get the fundamentals from the makers of Android](https://developer.android.com/courses/fundamentals-training/toc-v2)
+- [Vogella tutorials: Android concepts in depth](http://www.vogella.com/tutorials/android.html)
 - [Java Tutorials point: For quick reference to Java](https://www.tutorialspoint.com/java/)
-- [Stackoverflow](https://stackoverflow.com/)
+- [Stackoverflow: Don't know how to do something? This is your site](https://stackoverflow.com/)
 
 ## Week 2
-- [Follow the steps for setting up email address for every repository on your computer](https://help.github.com/articles/setting-your-commit-email-address-in-git/)
-- [Follow the steps for setting your git username for every repository on your computer](https://help.github.com/articles/setting-your-username-in-git/)
+
+## More setup
+- [Everyone enter your credentials here](https://docs.google.com/document/d/1nhjxLylpK2cHi-zd7M70F1CG92ALBiFP1rq_0adZLi4/edit?usp=sharing)
+- [Follow the steps for setting up email address for every git repository on your computer](https://help.github.com/articles/setting-your-commit-email-address-in-git/)
+- [Follow the steps for setting your git username for every git repository on your computer](https://help.github.com/articles/setting-your-username-in-git/)
+
+## Lesson
+- Introduction to Android studio. [Learn more](https://developer.android.com/studio/intro/)
+- Introduction to the important Android files
+	- Activities
+	- Manifest file
+	- Build.gradle
+- User Interface
+	- Design and Text tab
+	- Concept of hierachy of layouts
+	- OnClickListeners (Programmatic callbacks)
+	- Intents in Android. There are more intents in android, see [here](https://developer.android.com/guide/components/intents-common)
+	- The concept of up navigation in Android. [Learn more](https://developer.android.com/topic/libraries/architecture/navigation/navigation-principles)
+
+#### Push your very first Android app to github (You will remember this 5 years from now)
+- Open your github account using your browser
+- Create a new git repository
+- Give it the name: Android-hello-world-app
+- Do not edit the README.md file for now
+- Finish creating the repo
+- Copy the link to the repo, it should looks something like this: https://github.com/Tapszvidzwa/Android-hello-world-app.git
+- In Android Studio, open your terminal and follow the commands below
+
+#### For the next steps, if you have forgotten the git commands, first trying using [this](https://www.learnenough.com/git-tutorial) as a cheat sheet, otherwise call Tapiwa :)
+- Initialize a git repo
+- Add all the files to that repo
+- Commit the files with the message "My First App"
+- Using the link you copied from github, add a remote branch called origin
+- Push all the code to your github, since this is the first time pushing to this remote branch, make sure to include the flag to start tracking updates to that branch
+
+## Exercise (Due next week: Start early)
+- Build a story app - (To be discussed in class). Make sure to create a github repo for your app (I check these)
+- Practise using Android debugger. Do task 1 - 3 (task 3 is on step 5). Everything after task 3 is optional. [Debugger practise](https://codelabs.developers.google.com/codelabs/android-training-using-debugger/#4)
+
+## Readings (Due next week)
+- [Intents](https://developer.android.com/guide/components/intents-filters)
+- [Android UI layouts](https://www.tutorialspoint.com/android/android_user_interface_layouts.htm)
+- [ListViews](https://www.tutorialspoint.com/android/android_list_view.htm)
 
 
 
-#### Software setup
-- [Setup Github account](https://github.com/join)
-- [Install Android Studio](https://developer.android.com/studio/)
-
-## Instructions for installing Java
-
-#### Windows Users
-- Search for "Command Prompt" inside your search field from your task bar, this opens a new terminal
-- Type "java -version" and click enter
-- If you find some version of java, then you are good, otherwise download and install java from [here](http://www.oracle.com/technetwork/java/javase/downloads/jdk10-downloads-4416644.html)
-
-#### Mac Users
-- Open the Terminal
-- Type "java -version" and click enter
-- If you find some version of java, then you are good, otherwise download and install java from [here](http://www.oracle.com/technetwork/java/javase/downloads/jdk10-downloads-4416644.html)
-
-
-#### Exercise (Due next class)
-Go to this [site](https://developer.android.com/training/basics/firstapp/) and work through the exercise
-under Build your first app. Your last exercise should be the -> Start another activity
-
-#### Reading (Due next class)
-- [Introduction to activities](https://developer.android.com/guide/components/activities/intro-activities)
-
-- [Activities lifecycle](https://developer.android.com/guide/components/activities/intro-activities)
 
 
