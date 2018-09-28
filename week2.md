@@ -65,10 +65,10 @@ This course introduces the aspiring Android developer to the fundamental concept
 	below. Feel free to experiment with changing colors and text styles etc. Each of you will
 	present your mock app to the class next week. 
 
-	After you finish your project, create a github repo and push the code to the repo.
+	After you finish your project, create a github repo and push the code to the remote repo.
 	I will check for these next week.
 
-	
+
 
 ### Practise using Android debugger. (Optional but useful)
 - Do task 1 - 3 (task 3 is on step 5). Everything after task 3 is optional. [Debugger practise here](https://codelabs.developers.google.com/codelabs/android-training-using-debugger/#4)
