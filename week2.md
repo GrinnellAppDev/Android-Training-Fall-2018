@@ -57,8 +57,21 @@ This course introduces the aspiring Android developer to the fundamental concept
 - Push all the code to your github, since this is the first time pushing to this remote branch, make sure to include the flag to start tracking updates to that branch
 
 ## Exercise (Due next week: Start early)
-- Build a story app - (To be discussed in class). Make sure to create a github repo for your app (I check these)
-- Practise using Android debugger. Do task 1 - 3 (task 3 is on step 5). Everything after task 3 is optional. [Debugger practise here](https://codelabs.developers.google.com/codelabs/android-training-using-debugger/#4)
+### Build a story app 
+	- Create a simple story app that starts off with any random story and gives two buttons
+	as options for the user to continue the story. When the user clicks a button, 
+	you should start a new activity that continues the story. The story should
+	end differently based on what buttons the user presses in each case. See image inserted
+	below. Feel free to experiment with changing colors and text styles etc. Each of you will
+	present your mock app to the class next week. 
+
+	After you finish your project, create a github repo and push the code to the repo.
+	I will check for these next week.
+
+	
+
+### Practise using Android debugger. (Optional but useful)
+- Do task 1 - 3 (task 3 is on step 5). Everything after task 3 is optional. [Debugger practise here](https://codelabs.developers.google.com/codelabs/android-training-using-debugger/#4)
 
 ## Readings (Due next week)
 - [Intents](https://developer.android.com/guide/components/intents-filters)
