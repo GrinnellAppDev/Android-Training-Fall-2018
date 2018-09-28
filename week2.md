@@ -68,6 +68,7 @@ This course introduces the aspiring Android developer to the fundamental concept
 	After you finish your project, create a github repo and push the code to the remote repo.
 	I will check for these next week.
 
+![screenshot_1538152995](https://user-images.githubusercontent.com/20831683/46222182-2195e000-c315-11e8-9b62-c9339291aecb.png)
 
 
 ### Practise using Android debugger. (Optional but useful)
