@@ -1,0 +1,21 @@
+What is an Activity?
+Activity is used to create build.gradle files
+Activity is a one of the components for Android applications. It allows us link our user interface and program
+Activity is used as part of git 
+Activity is used to trigger the android debugger
+1
+Activities, Activities Lifecycle
+What can we find in a Manifest file?
+App permissions
+All our xml files
+All the libraries for our project
+The drawables folder
+0
+Manifest files
+Which file likely contains our dependencies and other config files?
+MainActivity.java
+Mypic.png
+build.gradle
+MainActivity.xml
+2
+Build.gradle files
