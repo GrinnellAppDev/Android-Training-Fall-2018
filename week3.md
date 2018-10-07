@@ -4,14 +4,14 @@
 
 # Week 3
 Topics covered
- - Activities [Review here]
- - Activities hierachy / stack [Review here]
- - R.java files [Review here]
+ - Activities [Review here](https://developer.android.com/guide/components/activities/intro-activities)
+ - Activities hierachy / stack [Review here](https://developer.android.com/guide/components/activities/tasks-and-back-stack)
+ - R.java files [Review here](https://www.javatpoint.com/R-java-file-in-android)
 
 #### ListViews
  - [Revisit ListViews here](https://www.tutorialspoint.com/android/android_list_view.htm)
 
-## Summary of listviews: In order to create a ListView in your activity you need to do the following. 
+## Summary of listviews: To create a ListView in your activity do the following. 
 
 #### Activity
 - Create a new Activity that will host the Listview 
@@ -53,8 +53,7 @@ and pass the adapter as an argument.
   
    - For this exercise, you are going to create a new app called MyAnimalsApp. The first page should display a list of animal names, ideally 
    5 animals. This means you need to use a ListView. 
-   - After you create a listview, use the ListView's setOnItemClickListener method to respond to click events in the listview. You should open
-   a new empty activity for each animal clicked. Lastly, make sure that the title bar on the toolbar changes based on the activity you are currently on. For example, if in my list I have an animal called in the list dog and I click that animal name, the app should open a new empty activity and the title bar should read DogActivity.
+   - After you create a listview, use the [ListView's setOnItemClickListener](https://www.includehelp.com/android/List-view-setOnItemClickListener.aspx) method to respond to click events in the listview. You should open a new empty activity for each animal clicked. Lastly, make sure that the title bar on the toolbar changes based on the activity you are currently on. For example, if in my list I have an animal called in the list dog and I click that animal name, the app should open a new empty activity and the title bar should read DogActivity.
    - Also make sure you are using good android navigation guidelines i.e you should provide back buttons to the main activity for any sub-activity you create. 
 
    - If you need some clues, I have added some sample code for my animal app [here](https://github.com/GrinnellAppDev/Android-Training-Fall-2018/tree/master/MyAnimalsApp). You can refer to it if you get stuck.
