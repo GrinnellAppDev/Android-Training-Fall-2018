@@ -2,16 +2,16 @@
 
 ![screen shot 2018-09-16 at 12 22 49 pm](https://user-images.githubusercontent.com/20831683/45599089-48662500-b9ab-11e8-927a-c8d5f31b88f2.png)
 
-## Week 3
+# Week 3
 Topics covered
- - Activities
- - Activities hierachy / stack
- - R.java files
+ - Activities [Review here]
+ - Activities hierachy / stack [Review here]
+ - R.java files [Review here]
 
-## ListViews
+#### ListViews
  - [Revisit ListViews here](https://www.tutorialspoint.com/android/android_list_view.htm)
 
-## In order to create a ListView in your activity you need to do the following. 
+## Summary of listviews: In order to create a ListView in your activity you need to do the following. 
 
 #### Activity
 - Create a new Activity that will host the Listview 
@@ -29,23 +29,25 @@ or some other data source. If you are obtaining the data from an array, use an A
 and pass the adapter as an argument.
 - Assuming you have created the respective xml files, your Activity's onCreate should look something like the code shown below
 
- @Override
+```` @Override
    protected void onCreate(Bundle savedInstanceState) {
       super.onCreate(savedInstanceState);
       setContentView(R.layout.activity_main);
+
       String[] arr = {"One", "Two", "Three"}; 
       ArrayAdapter adapter = new ArrayAdapter<String>(this, 
          R.layout.item_view, arr);
+
       ListView listView = (ListView) findViewById(R.id.mobile_list);
       listView.setAdapter(adapter);
-   } 
+   } ````
 
 
-## Readings 
+## Readings for next class 
  - [ListViews](https://www.tutorialspoint.com/android/android_list_view.htm)
  - [Data and file storage overview](https://developer.android.com/guide/topics/data/data-storage)
 
-## Exercise 
+## Exercise for next class
  - If you haven't, please [review ListViews](https://www.tutorialspoint.com/android/android_list_view.htm) before starting this exercise. 
   
    - For this exercise, you are going to create a new app called MyAnimalsApp. The first page should display a list of animal names, ideally 
