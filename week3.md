@@ -62,7 +62,8 @@ and pass the adapter as an argument.
    
 ![firstpage](https://user-images.githubusercontent.com/20831683/46588014-a510a900-ca5a-11e8-8522-e5c50cb284b3.png)
 
-- If the user clicks on cat, this is the activity that shows up. Do the same should be for each animal. 
+- If the user clicks on cat, this is the activity that shows up. Do the same for each animal. 
+
 ![mycatactivity](https://user-images.githubusercontent.com/20831683/46588018-a93cc680-ca5a-11e8-89ad-c3d359e1c5ea.png)
 
 
