@@ -33,22 +33,19 @@ and pass the adapter as an argument.
    protected void onCreate(Bundle savedInstanceState) {
       super.onCreate(savedInstanceState);
       setContentView(R.layout.activity_main);
-
-      String[] arr = {"One", "Two", "Three"};
-      
+      String[] arr = {"One", "Two", "Three"}; 
       ArrayAdapter adapter = new ArrayAdapter<String>(this, 
          R.layout.item_view, arr);
-      
       ListView listView = (ListView) findViewById(R.id.mobile_list);
       listView.setAdapter(adapter);
    } 
 
 
-## Readings (Start early)
+## Readings 
  - [ListViews](https://www.tutorialspoint.com/android/android_list_view.htm)
  - [Data and file storage overview](https://developer.android.com/guide/topics/data/data-storage)
 
-## Exercise (Start early)
+## Exercise 
  - Please review the following link on [ListViews](https://www.tutorialspoint.com/android/android_list_view.htm) before starting this exercise. 
    - For this exercise, you are going to create a new app called MyAnimalsApp. The first page should display a list of animal names, ideally 
    5 animals. This means you need to use a ListView. After you create a listview, use the ListView's setOnItemClickListener method to respond
@@ -61,7 +58,7 @@ and pass the adapter as an argument.
 
    Here are some photos of what your app should look like:
 
-   
+
 
 
 
