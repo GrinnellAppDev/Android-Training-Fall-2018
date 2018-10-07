@@ -5,17 +5,19 @@ import java.lang.Character;
 
 
 public class Test {
-
+	
+	public static String SPACE = "\n";
 
 	public static void main(String[] args) {
-		String SPACE = "\n";
+		ArrayList<Question> questions = new ArrayList<>();
+		ArrayList<Question> failedQuestions = new ArrayList<>();
 		String getAnswer = "Enter answer here: ";
 
 		Scanner scan = new Scanner(System.in);
+		System.out.println(SPACE);
+		System.out.print("A, B, C, or D to answer (case insensitive). \n");
 		System.out.print("Are you ready to start the quiz? If yes, press ENTER");
 		scan.nextLine();
-
-		System.out.println(SPACE);
 
 		BufferedReader br = null;
 
@@ -26,9 +28,12 @@ public class Test {
 		System.exit(1);
 	}
 
+		int questionNum = 1;
 
 		while(true) {
-	
+	  
+	  		System.out.println(SPACE);
+
 			try {
 			 String question = br.readLine();
 
@@ -48,38 +53,60 @@ public class Test {
 			 q.addAnswer(answer4);
 			 q.addAnswerIndex(correctAnswer);
 			 q.addTopicToReview(topicsToReview);
+			 questions.add(q);
 
+			 System.out.print(questionNum++ + ") ");
 			 q.printQuestion();
 			 q.printAnswers();
 			 System.out.print(getAnswer);
-
-			 isAnswerCorrect(q, scan.nextLine());
-
+			 
+			 if(isAnswerCorrect(q, scan.nextLine()) == false) {
+			 	failedQuestions.add(q);
+				} 
 			} else {
 				break;
 			}
-
+		
 		} catch (IOException e) {
 			System.out.println("Something went wrong when reading file");
 			System.exit(1);
 		}		
 	}
 
+			printFailedQuestions(failedQuestions);
+			printTopicsToReview(failedQuestions);
+			System.out.println();
 			System.out.println("Thanks for working on the mini quiz :)!");
 		
+	}
+
+	public static void printFailedQuestions(ArrayList<Question> failedQuestions) {
+		System.out.println("You answered incorrectly the following questions: ");
+
+		for(int i = 0; i < failedQuestions.size(); i++) {
+			failedQuestions.get(i).printQuestion();
+			System.out.print("Correct answer: ");
+			failedQuestions.get(i).printRightAnswer(); 
+			System.out.println();
+		}
+	}
+
+
+	public static void printTopicsToReview(ArrayList<Question> failedQuestions) {
+		System.out.println("TOPICS TO REVIEW: ");
+			for(int i = 0; i < failedQuestions.size(); i++) {
+				failedQuestions.get(i).printTopicsToReview();
+		        System.out.print(" ");
+			}
+			System.out.println();
 	}
 
 	public static boolean isAnswerCorrect(Question q, String answer) {
 		char c = answer.charAt(0);
 
 		if(Character.toLowerCase(q.getRightAnswerSymbol()) == Character.toLowerCase(c)) {
-			System.out.println(q.getRightAnswerSymbol());
-			System.out.println("correctAnswer");
 			return true;
 		} else {
-			System.out.println(q.getRightAnswerSymbol());
-			System.out.print("WrongAnswer, please review these topics: ");
-			System.out.println(q.topicsToReview);
 			return false;
 		}
 
@@ -132,7 +159,7 @@ public class Test {
 		public void printAnswers() {
 			int startLetter = 65;
 			for(int i = 0; i < answers.size(); i++) {
-				System.out.print(((char) (startLetter + i) + " "));
+				System.out.print(((char) (startLetter + i) + ". "));
 				System.out.println(this.answers.get(i));
 			}
 		}
@@ -143,7 +170,7 @@ public class Test {
 
 		public void printRightAnswer() {
 			int startLetter = 65;
-			System.out.print(((char) startLetter + answer_index) + " ");
+			System.out.print(((char) (startLetter + this.answer_index)) + ") ");
 			System.out.println(this.answers.get(answer_index));
 		}
 

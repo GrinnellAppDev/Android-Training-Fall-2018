@@ -2,18 +2,67 @@
 
 ![screen shot 2018-09-16 at 12 22 49 pm](https://user-images.githubusercontent.com/20831683/45599089-48662500-b9ab-11e8-927a-c8d5f31b88f2.png)
 
-#### Course Instructor: Tapiwa Zvidzwa
-#### Location: Noyce 3820
-#### Time: Thur 7 - 8pm
-
-## Objectives for this course
-This course introduces the aspiring Android developer to the fundamental concepts needed to make their own full fledged Android apps. We will explore most of these concepts through several projects (apps) that students can add to their personal projects portfolio. Students will become well versed with Version Control Systems (VCS) like [git](https://www.learnenough.com/git-tutorial) as well as using the [commandLine](https://www.learnenough.com/command-line-tutorial) like a pro. Furthermore, although not required, students are expected to invest their personal time in learning Java since all the projects will be coded in Java. All the material and links required for this course will be posted on this site under the schedule.
-
-## Useful websites
-- [Android fundamentals by Google: Get the fundamentals from the makers of Android](https://developer.android.com/courses/fundamentals-training/toc-v2)
-- [Vogella tutorials: Android concepts in depth](http://www.vogella.com/tutorials/android.html)
-- [Java Tutorials point: For quick reference to Java](https://www.tutorialspoint.com/java/)
-- [Stackoverflow: Don't know how to do something? This is your site](https://stackoverflow.com/)
-
 ## Week 3
-Coming up...
+Topics covered
+ - Activities
+ - Activities hierachy / stack
+ - R.java files
+
+## ListViews
+ - [Revisit ListViews here](https://www.tutorialspoint.com/android/android_list_view.htm)
+
+ In order to create a ListView in your activity you need to do the following. 
+
+Activity
+- Create a new Activity that will host the Listview 
+
+Xml files
+- In the Activity's xml file, include the ListView as a child view
+- Create an item_view xml file separately. An item_view is an xml that defines
+what each row of the listview will look like (Usually a textview)
+
+Finally 
+- Inside the Activity in your onCreate method, create an Adapter that will add stuff to our ListView from an array/database
+or some other data source. If you are obtaining the data from an array, use an ArrayAdapter
+- When constructing the Adapter, pass the Context, item_view as well as the array as arguments
+- Create a reference to the listview in the Activity, and then call the listview.setAdapter method
+and pass the adapter as an argument.
+- Assuming you have created the respective xml files, your Activity's onCreate should look something like the code shown below
+
+ @Override
+   protected void onCreate(Bundle savedInstanceState) {
+      super.onCreate(savedInstanceState);
+      setContentView(R.layout.activity_main);
+
+      String[] arr = {"One", "Two", "Three"};
+      
+      ArrayAdapter adapter = new ArrayAdapter<String>(this, 
+         R.layout.item_view, arr);
+      
+      ListView listView = (ListView) findViewById(R.id.mobile_list);
+      listView.setAdapter(adapter);
+   } 
+
+
+## Readings (Start early)
+ - [ListViews](https://www.tutorialspoint.com/android/android_list_view.htm)
+ - [Data and file storage overview](https://developer.android.com/guide/topics/data/data-storage)
+
+## Exercise (Start early)
+ - Please review the following link on [ListViews](https://www.tutorialspoint.com/android/android_list_view.htm) before starting this exercise. 
+   - For this exercise, you are going to create a new app called MyAnimalsApp. The first page should display a list of animal names, ideally 
+   5 animals. This means you need to use a ListView. After you create a listview, use the ListView's setOnItemClickListener method to respond
+   to click events in the listview. You should open a new empty activity for each animal clicked. Lastly, make sure that the title bar on 
+   the toolbar changes based on the activity you are currently on. For example, if in my list I have an animal name dog and I click that animal 
+   name, the app should open a new empty activity and the title bar should read DogActivity. Also make sure you are using good android navigation
+   guidelines i.e you should provide back buttons to the main activity for any sub-activity you create. 
+
+   If you need some clues, I have added some sample code in the [here] for MyAnimalApp. You can refer to it if you get stuck.
+
+   Here are some photos of what your app should look like:
+
+   
+
+
+
+
