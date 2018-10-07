@@ -11,17 +11,17 @@ Topics covered
 ## ListViews
  - [Revisit ListViews here](https://www.tutorialspoint.com/android/android_list_view.htm)
 
- In order to create a ListView in your activity you need to do the following. 
+## In order to create a ListView in your activity you need to do the following. 
 
-Activity
+#### Activity
 - Create a new Activity that will host the Listview 
 
-Xml files
+#### Xml files
 - In the Activity's xml file, include the ListView as a child view
 - Create an item_view xml file separately. An item_view is an xml that defines
 what each row of the listview will look like (Usually a textview)
 
-Finally 
+#### Finally 
 - Inside the Activity in your onCreate method, create an Adapter that will add stuff to our ListView from an array/database
 or some other data source. If you are obtaining the data from an array, use an ArrayAdapter
 - When constructing the Adapter, pass the Context, item_view as well as the array as arguments
@@ -29,7 +29,7 @@ or some other data source. If you are obtaining the data from an array, use an A
 and pass the adapter as an argument.
 - Assuming you have created the respective xml files, your Activity's onCreate should look something like the code shown below
 
-` @Override
+ @Override
    protected void onCreate(Bundle savedInstanceState) {
       super.onCreate(savedInstanceState);
       setContentView(R.layout.activity_main);
@@ -38,7 +38,7 @@ and pass the adapter as an argument.
          R.layout.item_view, arr);
       ListView listView = (ListView) findViewById(R.id.mobile_list);
       listView.setAdapter(adapter);
-   } `
+   } 
 
 
 ## Readings 
@@ -46,21 +46,21 @@ and pass the adapter as an argument.
  - [Data and file storage overview](https://developer.android.com/guide/topics/data/data-storage)
 
 ## Exercise 
- - Please review the following link on [ListViews](https://www.tutorialspoint.com/android/android_list_view.htm) before starting this exercise. 
+ - If you haven't, please [review ListViews](https://www.tutorialspoint.com/android/android_list_view.htm) before starting this exercise. 
+  
    - For this exercise, you are going to create a new app called MyAnimalsApp. The first page should display a list of animal names, ideally 
-   5 animals. This means you need to use a ListView. After you create a listview, use the ListView's setOnItemClickListener method to respond
-   to click events in the listview. You should open a new empty activity for each animal clicked. Lastly, make sure that the title bar on 
-   the toolbar changes based on the activity you are currently on. For example, if in my list I have an animal name dog and I click that animal 
-   name, the app should open a new empty activity and the title bar should read DogActivity. Also make sure you are using good android navigation
-   guidelines i.e you should provide back buttons to the main activity for any sub-activity you create. 
+   5 animals. This means you need to use a ListView. 
+   - After you create a listview, use the ListView's setOnItemClickListener method to respond to click events in the listview. You should open
+   a new empty activity for each animal clicked. Lastly, make sure that the title bar on the toolbar changes based on the activity you are currently on. For example, if in my list I have an animal called in the list dog and I click that animal name, the app should open a new empty activity and the title bar should read DogActivity.
+   - Also make sure you are using good android navigation guidelines i.e you should provide back buttons to the main activity for any sub-activity you create. 
 
-   If you need some clues, I have added some sample code in the [here] for MyAnimalApp. You can refer to it if you get stuck.
+   - If you need some clues, I have added some sample code for my animal app [here](https://github.com/GrinnellAppDev/Android-Training-Fall-2018/tree/master/MyAnimalsApp). You can refer to it if you get stuck.
 
-   Here are some photos of what your app should look like:
+#### Here are some photos of what your app should look like:
    
 ![firstpage](https://user-images.githubusercontent.com/20831683/46588014-a510a900-ca5a-11e8-8522-e5c50cb284b3.png)
 
-If the user clicks on cat, this is the activity that shows up. Do the same should be for each animal. 
+- If the user clicks on cat, this is the activity that shows up. Do the same should be for each animal. 
 ![mycatactivity](https://user-images.githubusercontent.com/20831683/46588018-a93cc680-ca5a-11e8-89ad-c3d359e1c5ea.png)
 
 
