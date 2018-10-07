@@ -42,7 +42,6 @@ and pass the adapter as an argument.
       listView.setAdapter(adapter);
    } ````
 
-
 ## Readings for next class 
  - [ListViews](https://www.tutorialspoint.com/android/android_list_view.htm)
  - [Data and file storage overview](https://developer.android.com/guide/topics/data/data-storage)
