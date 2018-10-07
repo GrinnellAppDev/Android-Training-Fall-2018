@@ -29,7 +29,7 @@ or some other data source. If you are obtaining the data from an array, use an A
 and pass the adapter as an argument.
 - Assuming you have created the respective xml files, your Activity's onCreate should look something like the code shown below
 
- @Override
+` @Override
    protected void onCreate(Bundle savedInstanceState) {
       super.onCreate(savedInstanceState);
       setContentView(R.layout.activity_main);
@@ -38,7 +38,7 @@ and pass the adapter as an argument.
          R.layout.item_view, arr);
       ListView listView = (ListView) findViewById(R.id.mobile_list);
       listView.setAdapter(adapter);
-   } 
+   } `
 
 
 ## Readings 
