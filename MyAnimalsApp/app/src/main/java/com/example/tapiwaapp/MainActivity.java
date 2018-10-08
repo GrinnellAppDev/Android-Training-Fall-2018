@@ -17,11 +17,11 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        final String[] daysOFWeek = {"Cat", "Dog", "Rabbit",
+        final String[] animals = {"Cat", "Dog", "Rabbit",
         "Horse", "Camel"};
 
         ArrayAdapter<String> adapter = new ArrayAdapter<>(getApplicationContext(),
-                R.layout.item_view, daysOFWeek);
+                R.layout.item_view, animals);
 
         ListView listView = findViewById(R.id.listview);
         listView.setAdapter(adapter);
@@ -29,7 +29,6 @@ public class MainActivity extends AppCompatActivity {
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
-            //Toast.makeText(getApplicationContext(), "You clicked" + daysOFWeek[i], Toast.LENGTH_SHORT).show();
 
             Intent intent = new Intent(MainActivity.this, MyCatActivity.class);
             startActivity(intent);
