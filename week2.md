@@ -19,6 +19,9 @@ This course introduces the aspiring Android developer to the fundamental concept
 
 ## More setup
 - Everyone enter your credentials [here](https://docs.google.com/document/d/1nhjxLylpK2cHi-zd7M70F1CG92ALBiFP1rq_0adZLi4/edit?usp=sharing)
+- Join the slack channell [here](
+https://join.slack.com/t/appdev-android-dev/shared_invite/enQtNDQ1MTk0MzU5NTA4LTliOTU3NmUyODVlOTc0ODc3N2Q4NDUzYzUxYmNmYTk2YjQ5ZDFlODJhYzI4NDBhNmRkOWM4MTZlNjUzODk0NGE
+)
 - Follow the steps for setting up email address for every git repository on your computer [here](https://help.github.com/articles/setting-your-commit-email-address-in-git/)
 - [Follow the steps for setting your git username for every git repository on your computer [here](https://help.github.com/articles/setting-your-username-in-git/)
 
@@ -68,6 +71,7 @@ This course introduces the aspiring Android developer to the fundamental concept
 	After you finish your project, create a github repo and push the code to the remote repo.
 	I will check for these next week.
 
+![img2](https://user-images.githubusercontent.com/20831683/46222317-84877700-c315-11e8-8f7d-3ddb37e48e74.png)
 
 
 ### Practise using Android debugger. (Optional but useful)
