@@ -11,18 +11,21 @@ Fill in the sign up sheet
 
 ### Instructions for mac users
 
-```> git pull
+```
+   > git pull
    > cd quizzes
    > cd quiz_mac
-   > java Test week4 -r```
+   > java Test week4 -r
+   ```
 
 
 ### Instructions for windows users
-```> git pull
+```
+   > git pull
    > cd quizzes
    > cd quiz_windows
-   > java Test week4 -r```
-
+   > java Test week4 -r
+   ```
 
 ## Agenda for the day
 - Fix with any remaining issues from project
