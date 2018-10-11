@@ -7,7 +7,9 @@
 ## Signup Sheet
 Fill in the sign up sheet
 
-## Open your terminal, navigate to Android-Training-Fall-2018 directory and run the following commands
+## Weekly quiz 
+
+### Open your terminal, navigate to Android-Training-Fall-2018 directory and run the following commands
 
 ### Instructions for mac users
 
@@ -44,7 +46,7 @@ Fill in the sign up sheet
 - Shared Preferences
 - Include counts in activities
 
-### Readings due next class
+### Readings (due next class)
 
-### Exercise due next class
+### Exercise (due next class)
 
