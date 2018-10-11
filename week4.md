@@ -47,6 +47,11 @@ Fill in the sign up sheet
 - Include counts in activities
 
 ### Readings (due next class)
+[OkHTTP](http://square.github.io/okhttp/)
+Gson
+Json
+Background tasks
 
 ### Exercise (due next class)
+coming up...
 
