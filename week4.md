@@ -31,7 +31,7 @@ Fill in the sign up sheet
 
 ## Agenda for the day
 - Fix with any remaining issues from project
-- Make sure we have reference to parent activities
+- Make sure we have reference to parent activities [Review here](https://developer.android.com/training/implementing-navigation/ancestral)
 - Reiterate concepts from previous class, Listviews [Review here](https://www.tutorialspoint.com/android/android_list_view.htm)
 - Review different types of layouts [Relative, Linear, Coordinator, Constrained], today we are using Relative Layout
 - Talk about dp, sp [Review here](https://material.io/design/layout/understanding-layout.html#)
@@ -42,7 +42,7 @@ Fill in the sign up sheet
 - Picasso and Glide image download libraries, caching, adapters [Review Picasso here](http://square.github.io/picasso/) , [Review Glide here](https://github.com/bumptech/glide)
 
 - Data and Storage
-- Internal Storage, External Storage, SharePreferences, Databases (SQLite, Rooms)
+- Internal Storage, External Storage, SharePreferences, Databases (SQLite, Rooms) [Review here](https://developer.android.com/guide/topics/data/data-storage)
 - Shared Preferences
 - Include counts in activities
 
