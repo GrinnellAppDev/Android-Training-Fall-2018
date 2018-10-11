@@ -1,0 +1,32 @@
+Which amongst these is NOT a storage option in Android?
+SharedPreferences
+Internal Storage
+Database e.g SQLite
+Bitbucket
+3
+Bitbucket is a version control system just like git and github. Its not a storage option in Android.
+Data and Storage
+Why is it not a good idea to store persistent data in the cache files?
+Android may create background threads that corrupt the files
+Cache files may cause app crashes when accessed frequently
+Android System may delete the cache files to recover memory
+Persistent data is too large to be stored efficiently in cache files
+2
+Cache files are used to store temporary data usually not more than 1MB. If Android System starts to run out of memory, it clears these cache files.
+Cache files
+What type of data can be stored in SharedPreferences?
+A small .txt file
+Primitive data e.g int, long, boolean
+.pdf files
+Java classes that are auto generated e.g R.java files
+1
+SharedPreferences store primitive data like ints, long, boolean in a key-value format
+SharedPreferences
+If you want your files to be freely accessible to other apps in Android, where would you store them?
+Android master storage hub
+Build.gradle's accessible storage file
+External storage
+Adapters e.g ArrayAdapter 
+2
+External storage is publicly available to other apps e.g photos gallery.
+External storage, Internal storage

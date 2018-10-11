@@ -2,8 +2,11 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.tapiwaapp">
 
+<<<<<<< HEAD
     <uses-permission android:name="android.permission.INTERNET" />
 
+=======
+>>>>>>> b745e2505ce96913f595889e5a5eecbb670f6fd2
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -11,7 +14,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+<<<<<<< HEAD
 
+=======
+>>>>>>> b745e2505ce96913f595889e5a5eecbb670f6fd2
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -19,6 +25,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+<<<<<<< HEAD
         <activity android:name=".CatActivity"
             android:parentActivityName=".MainActivity"/>
         <activity android:name=".DogActivity"
@@ -29,6 +36,9 @@
             android:parentActivityName=".MainActivity"/>
         <activity android:name=".HorseActivity"
             android:parentActivityName=".MainActivity"></activity>
+=======
+        <activity android:name=".MyCatActivity"></activity>
+>>>>>>> b745e2505ce96913f595889e5a5eecbb670f6fd2
     </application>
 
 </manifest>
