@@ -48,10 +48,9 @@ Fill in the sign up sheet
 
 ### Readings (due next class)
 [OkHTTP](http://square.github.io/okhttp/)
-Gson
-Json
-Background tasks
+[Gson](https://sites.google.com/site/gson/gson-user-guide)
+[Json](http://www.vogella.com/tutorials/JSON/article.html)
+[Background processing](http://www.vogella.com/tutorials/AndroidBackgroundProcessing/article.html)
 
-### Exercise (due next class)
-coming up...
-
+### Exercise 
+No exercise for next class
