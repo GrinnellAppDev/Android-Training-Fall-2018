@@ -47,10 +47,10 @@ Fill in the sign up sheet
 - Include counts in activities
 
 ### Readings (due next class)
-[OkHTTP](http://square.github.io/okhttp/)
-[Gson](https://sites.google.com/site/gson/gson-user-guide)
-[Json](http://www.vogella.com/tutorials/JSON/article.html)
-[Background processing](http://www.vogella.com/tutorials/AndroidBackgroundProcessing/article.html)
+- [OkHTTP](http://square.github.io/okhttp/)
+- [Gson](https://sites.google.com/site/gson/gson-user-guide)
+- [Json](http://www.vogella.com/tutorials/JSON/article.html)
+- [Background processing](http://www.vogella.com/tutorials/AndroidBackgroundProcessing/article.html)
 
 ### Exercise 
 No exercise for next class
