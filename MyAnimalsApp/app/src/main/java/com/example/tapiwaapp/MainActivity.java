@@ -6,13 +6,11 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
-<<<<<<< HEAD
 import android.widget.ListView;
-=======
 import android.widget.Button;
 import android.widget.ListView;
 import android.widget.Toast;
->>>>>>> b745e2505ce96913f595889e5a5eecbb670f6fd2
+
 
 public class MainActivity extends AppCompatActivity {
 
@@ -34,7 +32,6 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
 
-<<<<<<< HEAD
             Intent intent;
 
             switch(i) {
@@ -60,15 +57,7 @@ public class MainActivity extends AppCompatActivity {
             if(intent != null) {
                 startActivity(intent);
                 }
-=======
-            Intent intent = new Intent(MainActivity.this, MyCatActivity.class);
-            startActivity(intent);
-            //Create a switch statement that will open a new empty activity based on the value int i
-                //i.e if int i = 0, that corresponds to cat thus open a new activity called CatActivity.
-                //Make sure the title in the toolbar changes to CatActivity (research how to do this on your own)
-                //This means you need to firstly create empty activities for all your animals
-                //We will add stuff to these activities in next class
->>>>>>> b745e2505ce96913f595889e5a5eecbb670f6fd2
+
             }
         });
 

@@ -6,6 +6,23 @@
     android:layout_height="match_parent"
     tools:context=".CatActivity">
 
+    <TextView
+        android:id="@+id/network_response"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:layout_centerHorizontal="true"
+        android:text="response"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="fetchData"
+        android:text="Click me to load response"
+        android:layout_below="@id/network_response"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp" />
+
     <ImageView
         android:id="@+id/catView"
         android:layout_width="100dp"
