@@ -11,6 +11,25 @@
         android:layout_height="100dp"
         android:layout_centerInParent="true"
         tools:srcCompat="@tools:sample/backgrounds/scenic" />
+
+    <TextView
+        android:id="@+id/dogSleepingTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:text="Dog Sleep Time"
+        android:layout_centerHorizontal="true"/>
+    
+    <Button
+        android:id="@+id/sleepDog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dogSleepingTime"
+        android:layout_centerHorizontal="true"
+        android:text="Click me to Sleep Dog"
+        android:onClick="runSleep"/>
+
+
     <TextView
         android:id="@+id/dogPageVisitsCount"
         android:layout_width="wrap_content"
