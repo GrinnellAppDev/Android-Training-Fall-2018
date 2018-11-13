@@ -1,5 +1,11 @@
 
-isquid:CommentedOutCodeLine)"<This block of commented-out lines of code should be removed.(“ðÀý8ôã¾‰æ,
-isquid:CommentedOutCodeLine;"<This block of commented-out lines of code should be removed.(ˆ×Ýÿ8ôã¾‰æ,
-Osquid:S1135<"2Complete the task associated to this TODO comment.(Üë–g8ôã¾‰æ,
-nsquid:CommentedOutCodeLine="<This block of commented-out lines of code should be removed.(éØ»Úûÿÿÿÿ8ôã¾‰æ,
+bsquid:S2147["DCombine this catch with the one at line 88, which has the same body.(”ý¾8¸ÐÐí,
+Fsquid:S1148Y"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8¸ÐÐí,
+isquid:CommentedOutCodeLineE"<This block of commented-out lines of code should be removed.(ˆ×Ýÿ8¸ÐÐí,
+Osquid:S1135F"2Complete the task associated to this TODO comment.(Üë–g8¸ÐÐí,
+Fsquid:S1148\"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8¸ÐÐí,
+Dsquid:S1659"&Declare "dogslept" on a separate line.(Þ³¢ï8¸ÐÐí,
+isquid:CommentedOutCodeLine-"<This block of commented-out lines of code should be removed.(“ðÀý8¸ÐÐí,
+qsquid:S1450N"SRemove the "resp" field and declare it as a local variable in the relevant methods.(âëÎË8¸ÐÐí,
+nsquid:CommentedOutCodeLineG"<This block of commented-out lines of code should be removed.(éØ»Úûÿÿÿÿ8¸ÐÐí,
+dsquid:S2142X"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8¸ÐÐí,

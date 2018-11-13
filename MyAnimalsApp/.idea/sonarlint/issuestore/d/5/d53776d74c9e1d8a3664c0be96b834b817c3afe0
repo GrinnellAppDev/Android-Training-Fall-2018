@@ -1,5 +1,6 @@
 
-Osquid:S1135;"2Complete the task associated to this TODO comment.(Üë–g8ç­¾‰æ,
-nsquid:CommentedOutCodeLine<"<This block of commented-out lines of code should be removed.(éØ»Úûÿÿÿÿ8ç­¾‰æ,
-isquid:CommentedOutCodeLine:"<This block of commented-out lines of code should be removed.(ˆ×Ýÿ8ç­¾‰æ,
-isquid:CommentedOutCodeLine("<This block of commented-out lines of code should be removed.(“ðÀý8ç­¾‰æ,
+Jsquid:S1659")Declare "responseTxt" on a separate line.(©±×¤ÿÿÿÿÿ8»¼ˆí,
+gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(“ðÀý8»¼ˆí,
+gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ˆ×Ýÿ8»¼ˆí,
+lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(éØ»Úûÿÿÿÿ8»¼ˆí,
+Msquid:S1135"2Complete the task associated to this TODO comment.(Üë–g8»¼ˆí,

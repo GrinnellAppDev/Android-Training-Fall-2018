@@ -16,4 +16,12 @@ This course introduces the aspiring Android developer to the fundamental concept
 - [Stackoverflow: Don't know how to do something? This is your site](https://stackoverflow.com/)
 
 ## Week 7
-Coming up...
+
+#### Final Project Presentation (Due Thursday)
+- Design a mobile app of your own. Your project doesn't have to be complex, a simple project will suffice.
+- You are required to use the knowledge and demonstrate from at least these three topics
+	- Data and Storage
+	- Background processing
+	- At least 3 activities
+- Feel free to go over the past weeks and click the links to review the material we covered
+- You can also go on youtube or seach the internet for clues on how to use those three topics in your app
